@@ -1,0 +1,15 @@
+{
+    "name": "Template-plugins",
+    "description": "Custom templates plugin",
+    "authors": "Aditya Pande",
+    "version": "1.0.0",
+    "repository": "https://github.com/AdityaPande128/Monokle-Template",
+    "monoklePlugin": {
+        "modules": [
+            {
+                "type": "template",
+                "path": "basic-pod-template"
+            }
+        ] 
+    }
+}

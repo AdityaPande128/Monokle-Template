@@ -1,0 +1,28 @@
+{
+    "name": "Basic Kubernetes Pod",
+    "id": "com.github.AdityaPande128.plugin.templates.basic-pod-template",
+    "author": "Aditya Pande",
+    "version": "1.0.0",
+    "description": "Creates a pod for a specified Image",
+    "repository": "",
+    "type": "vanilla",
+    "forms": [
+        {
+            "name": "Pod Settings",
+            "description": "Specify the settings for your Pod",
+            "schema": "form-schema.json",
+            "uiSchema": "form-ui-schema.json",
+    
+        }
+    ],
+
+    "manifests": [
+        {
+            "filePath": "template.yaml",
+
+        }
+    ],
+    "resultMessage": "Pod resources created successfully!",
+    "helpUrl": "github.com/AdityaPande128/monokle-templates-plugin"
+
+}
