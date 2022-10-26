@@ -10,6 +10,6 @@
                 "type": "template",
                 "path": "basic-pod-template"
             }
-        ] 
+        ],
     }
 }
